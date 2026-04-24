@@ -12,10 +12,10 @@ const experienceData = [
     icon: <Briefcase className="w-5 h-5 text-white" />,
     color: "bg-indigo-500",
     details: [
-      "Synthesized product requirements and launched a full-stack web app using Next.js, FastAPI, and CSS.",
-      "Integrated RESTful APIs and responsive layouts, driving a 35% uplift in user engagement.",
-      "Diagnosed rendering bottlenecks via Lighthouse and engineered optimizations to cut page load time by 25%.",
-      "Coordinated an Agile team of 5+; led code reviews and implemented CI via GitHub Actions."
+      "Analyzed and processed large datasets to extract meaningful insights and improve prediction quality",
+      "Applied feature selection techniques to reduce dimensionality and enhance model efficiency",
+      "Visualized trends and model performance using Matplotlib to support decision-making",
+      "Improved model generalization by tuning hyperparameters using Search"
     ]
   },
   {
@@ -73,7 +73,7 @@ export default function Experience() {
 
       <div className="relative border-l-2 border-white/10 ml-6 md:ml-8 pl-8 md:pl-12 space-y-12">
         {experienceData.map((item, idx) => (
-          <motion.div 
+          <motion.div
             key={item.id}
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -93,9 +93,9 @@ export default function Experience() {
                 </h3>
                 <span className="text-sm font-mono text-gray-400 mt-2 md:mt-0">{item.duration}</span>
               </div>
-              
+
               <h4 className="text-md text-indigo-300 font-medium mb-4">{item.company}</h4>
-              
+
               <ul className="space-y-2">
                 {item.details.map((desc, i) => (
                   <li key={i} className="text-gray-300 text-sm md:text-base flex items-start gap-2">
