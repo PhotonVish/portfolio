@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const skillsData = [
   {
     category: "Operations & Workflow",
-    items: ["Designed and optimized workflows", "managed event operations", "ensured efficient data handling", "coordinated tasks t"],
+    items: ["Designed and optimized workflows", "managed event operations", "ensured efficient data handling", "coordinated tasks"],
   },
   {
     category: "Programming Languages",
