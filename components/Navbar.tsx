@@ -13,7 +13,7 @@ export default function Navbar() {
     >
       <div className="bg-white/10 backdrop-blur-xl border border-white/20 shadow-lg rounded-full px-6 py-3 flex items-center space-x-6 text-sm md:text-base font-medium">
         <a href="#about" className="hover:text-[var(--color-brand-neon)] transition-colors">
-          About
+          Home
         </a>
         <a href="#skills" className="hover:text-[var(--color-brand-neon)] transition-colors">
           Skills

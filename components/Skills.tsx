@@ -4,6 +4,10 @@ import { motion } from "framer-motion";
 
 const skillsData = [
   {
+    category: "Operations & Workflow",
+    items: ["Designed and optimized workflows", "managed event operations", "ensured efficient data handling", "coordinated tasks t"],
+  },
+  {
     category: "Programming Languages",
     items: ["C", "Python", "Assembly (ASM)", "Shell Script", "JavaScript", "HTML", "CSS"],
   },
@@ -12,13 +16,17 @@ const skillsData = [
     items: ["PyTorch", "Scikit-Learn", "TensorFlow", "Keras", "Pandas", "NumPy", "OpenCV", "LangChain", "LangGraph"],
   },
   {
-    category: "Backend & Frameworks",
-    items: ["FastAPI", "Express.js", "Next.js", "React", "Flask"],
+    category: "Backend  Frameworks",
+    items: ["FastAPI", "Express.js", "Flask", "Django"],
+  }, {
+    category: "Frontend Frameworks",
+    items: ["HTML", "Tailwind CSS", "Java Script", "React", "Next.js"],
   },
   {
     category: "Tools & Platforms",
     items: ["AWS", "Docker", "Linux", "Git/GitHub", "Distributed Systems", "SQL/NoSQL", "Postman", "Matlab"],
   },
+
 ];
 
 export default function Skills() {
@@ -48,11 +56,11 @@ export default function Skills() {
           >
             {/* Subtle highlight effect on hover */}
             <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-            
+
             <h3 className="text-xl font-bold text-white mb-6 font-mono border-b border-white/10 pb-4">
               {skillGroup.category}
             </h3>
-            
+
             <div className="flex flex-wrap gap-3">
               {skillGroup.items.map((skill, i) => (
                 <motion.span
