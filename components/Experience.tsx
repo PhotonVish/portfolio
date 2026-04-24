@@ -6,7 +6,7 @@ import { Briefcase, Award, Users } from "lucide-react";
 const experienceData = [
   {
     id: 1,
-    role: "Full Stack Web Developer (Intern)",
+    role: "ML Engineer(Intern)",
     company: "Day and Night Space Foundation",
     duration: "Mar 2025 – Jun 2025",
     icon: <Briefcase className="w-5 h-5 text-white" />,
